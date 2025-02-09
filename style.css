@@ -206,6 +206,8 @@ blockquote {
 .work_experience .jute .bg_juteExp img{
     margin: 2em;
     box-shadow: 0 0 10em rgba(206, 149, 63, 0.815);
+    width: 650px;
+    height: 380px;
     border-radius: 8px;
     resize: both;
     overflow: auto;
@@ -220,10 +222,10 @@ blockquote {
     border-radius: 8px;
     color: rgb(185, 124, 67);
     padding: 20px;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(206, 149, 63, 0.678));
     overflow: auto;
-    max-height: 400px;
+    max-height: 528px;
     
 }
 .work_experience .tea {
@@ -233,9 +235,11 @@ blockquote {
 }
 .work_experience .tea .bg_teaExp img{
     margin: 2em;
-    width: 800px;
+    width: 750px;
     box-shadow: 0 0 10em rgba(64, 165, 38, 0.801);
     border-radius: 8px;
+    resize: both;
+    overflow: auto;
 }
 .work_experience .tea .description {
     font-family: "GT Super Regular", -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -248,7 +252,8 @@ blockquote {
     padding: 20px;
     letter-spacing: 0.05em;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(130, 221, 107, 0.767));
-
+    overflow: auto;
+    max-height: 528px;
 }
 @keyframes slide {
     0% {
