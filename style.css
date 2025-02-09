@@ -1,0 +1,260 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+   
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0.5em;
+    padding: 20px;
+    width: auto;
+    box-shadow: 0 0 0 rgba(31, 29, 29, 0.979);
+    border-radius: 8px;
+    opacity: 0.1em;
+    /* background-color: white; */
+    
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(128, 134, 141, 0)); */
+}  
+.main header {
+    font-family: "GT Super Regular", -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 25px;
+    color: rgb(103, 103, 103);
+    padding: 5px;
+    letter-spacing: 0.10em;
+}
+.main span {
+    font-family: "GT Super Regular", -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 12px;
+    color: rgb(103, 103, 103);
+    letter-spacing: 0.10em;
+}
+
+.main span p {
+    margin-top: 2em;
+    font-family: "GT Super Regular", -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-weight: 800;
+    line-height: 58px;
+    font-size: 48px;
+    color: rgb(103, 103, 103);
+    letter-spacing: 0.15em;
+}
+/* .introduction {
+    margin: 1em;
+    padding: 20px;
+    width: auto;
+    box-shadow: 5px 5px 10px rgb(105, 102, 102);
+    border-radius: 8px;
+    height: 350px;
+    opacity: 1;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgb(106, 112, 119));
+}    */
+/* .main span nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: -0.8em;
+    padding: 20px;
+} 
+.main span nav ul li {
+    margin-right: 2em;
+    font-family: "GT Super Regular", -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 20px;
+    color: rgb(103, 103, 103);
+    text-decoration: none;
+} */
+/* .introduction {
+    margin: 1em;
+    padding: 20px;
+    width: auto;
+    box-shadow: 5px 5px 10px rgb(105, 102, 102);
+    border-radius: 8px;
+    height: 350px;
+    opacity: 1;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgb(106, 112, 119));
+}    */
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.7em;
+    /* margin-right: 0.7em;
+    margin-left: 0.7em; */
+    padding: 2px;
+    width: auto;
+    opacity: 1;
+    /* box-shadow: 0 0 10px rgba(255, 254, 254, 0.651);
+    border-radius: 8px; */
+    height: 360px;
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgb(106, 112, 119)); */
+}  
+.content .bg_video video {
+    margin: 0.5em;
+    /* padding: 1px; */
+    /* width: auto; */
+    box-shadow: 5px 5px 10px rgb(105, 102, 102);
+    border-radius: 8px;
+    height: 350px;
+    opacity: 1;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgb(106, 112, 119));
+    object-fit: fill;
+    /* position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 20%;
+    min-height: 50%;
+    width: auto;    
+    height: 50px;
+    opacity: 1;
+    z-index: 1000; */
+} 
+/* .frontend_content {
+    margin-right: 0.5em;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 0.1em rgba(255, 254, 254, 0.651);
+    border-radius: 8px;
+    height: 220px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgb(106, 112, 119));
+} 
+.backend_content {
+    margin-right: 0.5em;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 0.1em rgba(255, 254, 254, 0.651);
+    border-radius: 8px;
+    height: 220px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgb(106, 112, 119));
+}
+.database_content {
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 0.1em rgba(255, 254, 254, 0.651);
+    border-radius: 8px;
+    height: 220px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgb(106, 112, 119));
+} */
+.skills_icons {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto; 
+    overflow: scroll;
+}
+.skills_icons::-webkit-scrollbar {
+    display: none;
+}
+.skills_icons span {
+    margin: 1.5em;
+    flex: 1 1 5em; 
+    max-width: 5em; 
+    height: 5em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_icons span img {
+    image-rendering: pixelated;
+    object-fit: contain; 
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+
+}
+blockquote {
+    margin: 2em;
+    text-align: center;
+    font-family: "GT Super Regular", -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 18px;
+    color: rgb(103, 103, 103);
+    padding: 18px;
+    letter-spacing: 0.04em;
+}
+.work_experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: auto;
+    box-shadow: 0 0 0 rgba(31, 29, 29, 0.979);
+    border-radius: 8px;
+    opacity: 0.1em;
+    /* background-color: white; */
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(128, 134, 141, 0)); */
+}
+.work_experience .jute {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2em;
+}
+.work_experience .jute .bg_juteExp img{
+    margin: 2em;
+    box-shadow: 0 0 10em rgba(206, 149, 63, 0.815);
+    border-radius: 8px;
+    resize: both;
+    overflow: auto;
+}
+.work_experience .jute .description {
+    width: 60%;
+    font-family: "GT Super Regular", -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 15px;
+    box-shadow: 0 0 10em rgba(206, 149, 63, 0.548);
+    border-radius: 8px;
+    color: rgb(185, 124, 67);
+    padding: 20px;
+    letter-spacing: 0.04em;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(206, 149, 63, 0.678));
+    overflow: auto;
+    max-height: 400px;
+    
+}
+.work_experience .tea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.work_experience .tea .bg_teaExp img{
+    margin: 2em;
+    width: 800px;
+    box-shadow: 0 0 10em rgba(64, 165, 38, 0.801);
+    border-radius: 8px;
+}
+.work_experience .tea .description {
+    font-family: "GT Super Regular", -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 15px;
+    box-shadow: 0 0 40em rgb(150, 185, 141);
+    border-radius: 8px;
+    color: rgb(63, 116, 50);
+    padding: 20px;
+    letter-spacing: 0.05em;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(130, 221, 107, 0.767));
+
+}
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
